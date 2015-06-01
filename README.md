@@ -88,6 +88,9 @@ class SkinnedMesh extends THREE.Mesh {
 ### Enhanced Object Literals
 Object literals are extended to support setting the prototype at construction, shorthand for `foo: foo` assignments, defining methods, making super calls, and computing property names with expressions.  Together, these also bring object literals and class declarations closer together, and let object-based design benefit from some of the same conveniences.
 
+### Улучшенные литералы объектов
+Литералы объектов расширены для поддержки установки прототипов, сокращения записи  конструкций типа `foo: foo`, определения методов, создания супер вызовов и определения имен свойств с помощью выражений. Все это сближает литералы объектов и определения классов, что помогает объектно-ориентированному программированию. 
+
 ```JavaScript
 var obj = {
     // __proto__
