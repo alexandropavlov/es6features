@@ -1,11 +1,11 @@
 # ECMAScript 6 <sup>[git.io/es6features](http://git.io/es6features)</sup>
 
-## Introduction
-ECMAScript 6, also known as ECMAScript 2015, is the upcoming version of the ECMAScript standard.  This standard is targeting ratification in June 2015.  ES6 is a significant update to the language, and the first update to the language since ES5 was standardized in 2009. Implementation of these features in major JavaScript engines is [underway now](http://kangax.github.io/es5-compat-table/es6/).
+## Введение
+ECMAScript 6, также известный как ECMAScript 2015 — это будущая версия стандарта ECMAScript. Принятие этого стандарта ожидается в июне 2015. ES6 — это значительное обновления языка первое его обновление с ES5, который был принят в 2009 году. Реализацию этих возможностей в основных JavaScript-движках можно [посмотреть тут](http://kangax.github.io/es5-compat-table/es6/).
 
-See the [draft ES6 standard](https://people.mozilla.org/~jorendorff/es6-draft.html) for full specification of the ECMAScript 6 language.
+Если вас интересует полная спецификация ECMAScript 6, читайте [черновик стандарта ES6](https://people.mozilla.org/~jorendorff/es6-draft.html).
 
-ES6 includes the following new features:
+ES6 включает в себя следующие новые возможности:
 - [arrows](#arrows)
 - [classes](#classes)
 - [enhanced object literals](#enhanced-object-literals)
