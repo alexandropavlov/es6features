@@ -110,6 +110,9 @@ var obj = {
 ### Template Strings
 Template strings provide syntactic sugar for constructing strings.  This is similar to string interpolation features in Perl, Python and more.  Optionally, a tag can be added to allow the string construction to be customized, avoiding injection attacks or constructing higher level data structures from string contents.
 
+### Шаблон строк
+Шаблон строк представляет "синтаксический сахар" для конструирования строк. Это похоже на возможность интерполяции строк в Perl, Python и других языках.При желании может быть добавлен тэг для возможности настройки конструкции строки, избежания инъекционных атак или конструирования структур данных более высокого уровня из строк. 
+
 ```JavaScript
 // Basic literal string creation
 `In JavaScript '\n' is a line-feed.`
