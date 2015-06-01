@@ -56,8 +56,8 @@ var bob = {
 }
 ```
 
-### Classes
-ES6 classes are a simple sugar over the prototype-based OO pattern.  Having a single convenient declarative form makes class patterns easier to use, and encourages interoperability.  Classes support prototype-based inheritance, super calls, instance and static methods and constructors.
+### Классы
+Классы в ES6 — это синтаксический сахар над шаблоном прототипного ООП.  Наличие такой единой декларативной формы делает использование шаблона класса проще, удобнее и более совместимым. Классы поддерживают прототипное наследование, вызовы родительских методов, статические методы и методы экземпляра класса, а также конструкторы.
 
 ```JavaScript
 class SkinnedMesh extends THREE.Mesh {
