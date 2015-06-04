@@ -30,22 +30,22 @@ ES6 включает в себя следующие новые возможно�
 
 ## ECMAScript 6 Features
 
-### Arrows
-Arrows are a function shorthand using the `=>` syntax.  They are syntactically similar to the related feature in C#, Java 8 and CoffeeScript.  They support both expression and statement bodies.  Unlike functions, arrows share the same lexical `this` as their surrounding code.
+### Стрелы
+Стрелы — это сокращение для функций, которое использует синтаксис `=>`. Они синтаксически похожи на аналогичные возможности в C#, Java и CoffeeScript. В качестве тела они поддерживают как выражения, так и инструкции (блоки кода). В отличие от функций, стрелы разделяют то же лексическое `this`, что и окружающий их код.
 
 ```JavaScript
-// Expression bodies
+// Примеры, где в качестве тела выступают выражения
 var odds = evens.map(v => v + 1);
 var nums = evens.map((v, i) => v + i);
 var pairs = evens.map(v => ({even: v, odd: v + 1}));
 
-// Statement bodies
+// Пример с инструкциями в качестве тела
 nums.forEach(v => {
   if (v % 5 === 0)
     fives.push(v);
 });
 
-// Lexical this
+// Лексическое this
 var bob = {
   _name: "Bob",
   _friends: [],
