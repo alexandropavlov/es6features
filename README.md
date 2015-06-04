@@ -88,6 +88,9 @@ class SkinnedMesh extends THREE.Mesh {
 ### Enhanced Object Literals
 Object literals are extended to support setting the prototype at construction, shorthand for `foo: foo` assignments, defining methods, making super calls, and computing property names with expressions.  Together, these also bring object literals and class declarations closer together, and let object-based design benefit from some of the same conveniences.
 
+### Улучшенные литералы объектов
+Литералы объектов расширены для поддержки установки прототипов, сокращения записи  конструкций типа `foo: foo`, определения методов, создания супер вызовов и определения имен свойств с помощью выражений. Все это сближает литералы объектов и определения классов, что помогает объектно-ориентированному программированию. 
+
 ```JavaScript
 var obj = {
     // __proto__
@@ -106,6 +109,9 @@ var obj = {
 
 ### Template Strings
 Template strings provide syntactic sugar for constructing strings.  This is similar to string interpolation features in Perl, Python and more.  Optionally, a tag can be added to allow the string construction to be customized, avoiding injection attacks or constructing higher level data structures from string contents.
+
+### Шаблон строк
+Шаблон строк представляет "синтаксический сахар" для конструирования строк. Это похоже на возможность интерполяции строк в Perl, Python и других языках.При желании может быть добавлен тэг для возможности настройки конструкции строки, избежания инъекционных атак или конструирования структур данных более высокого уровня из строк. 
 
 ```JavaScript
 // Basic literal string creation
