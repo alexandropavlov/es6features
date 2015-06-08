@@ -246,10 +246,10 @@ interface Iterable {
 }
 ```
 
-### Generators
-Generators simplify iterator-authoring using `function*` and `yield`.  A function declared as function* returns a Generator instance.  Generators are subtypes of iterators which include additional  `next` and `throw`.  These enable values to flow back into the generator, so `yield` is an expression form which returns a value (or throws).
+### Генераторы
+Генераторы упрощают создание итераторов используя синтаксис `function*` и `yield`. Функция объявленная через function* возвращает объект-генератор. Генераторы являются подтипами итераторов с дополнительными методами `next` и `throw`.  Это позволяет значениям переходить назад в генератор, так `yield` это выражение, которое возвращает значение (или исключения).
 
-Note: Can also be used to enable ‘await’-like async programming, see also ES7 `await` proposal.
+Замечание: Их так же можно использовать для 'await'-async программирования в стиле, смотри обсуждение ES7 `await`.
 
 ```JavaScript
 var fibonacci = {
@@ -265,14 +265,14 @@ var fibonacci = {
 }
 
 for (var n of fibonacci) {
-  // truncate the sequence at 1000
+  // усекает последовательность на 1000
   if (n > 1000)
     break;
   console.log(n);
 }
 ```
 
-The generator interface is (using [TypeScript](http://typescriptlang.org) type syntax for exposition only):
+Реализация генератор интерфейса (на [TypeScript](http://typescriptlang.org) как пример):
 
 ```TypeScript
 interface Generator extends Iterator {
